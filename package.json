@@ -5,6 +5,9 @@
   "repository": "git@github.com:hdev14/intro-typescript.git",
   "author": "HermersonDev <ne.hermerson@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc && node ./dist/index.js"
+  },
   "devDependencies": {
     "@types/express": "^4.17.7",
     "typescript": "^3.9.6"
